@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Raj</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./favicon-32x32.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+</head>
+
+<body>
+    <div id="loader">
+
+        <div class="yoyo">
+            <h3>I'M RAJ PARDHI</h3>
+
+            <h4>I'm <span>MERN Stack Developer</span></h4>
+
+        </div>
+
+    </div>
+    <div id="main">
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <span></span>
+                    <h2>RAJ PARDHI</h2>
+                    <ul id="sidemenu">
+                        <li><a href="#header">HOME</a></li>
+                        <li><a href="#about">ABOUT</a></li>
+                        <li><a href="#service">SERVICE</a></li>
+                        <li><a href="#portfolio">PORTFOLIO</a></li>
+                        <li><a href="#contact">CONTACT</a></li>
+                        <i class="ri-close-line" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="ri-menu-line" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>Hello</p>
+                    <h1>I'm <span>Raj</span> Pardhi</h1>
+                    <h2>I'm <span class="auto-type"></span> </h2>
+                    <a href="images/new resum.pdf" download class="btn btn2">Download CV</a>
+
+                </div>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/raj-pardhi-b401a2268/"><i class="ri-linkedin-box-fill"></i></a>
+                    <a href="https://www.instagram.com/mr__rajpardhi08/"><i class="ri-instagram-line"></i></a>
+                    <a href="https://github.com/RajPardhi07"><i class="ri-github-fill"></i></a>
+                    <a href="#"><i class="ri-facebook-box-fill"></i></a>
+                </div>
+                <div class="pic">
+
+                    <img src="images/WhatsApp_Image_2024-01-29_at_12.12.26_PM-removebg-preview.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div id="skill">
+            <h1 class="sub-title">Skills</h1>
+
+            <h2>Development</h2>
+            <div class="box dev-box">
+                <img src="./images/html.png" alt="">
+                <img src="./images/css.png" alt="">
+                <img src="./images/js.png" alt="">
+                <img src="./images/gsap.png" alt="">
+                <img src="./images/node.png" alt="">
+                <img src="./images/mongodb.png" alt="">
+                <img src="./images/React-Logo-PNG-Pic.png" alt="">
+                <img src="./images/github.png" alt="">
+                <img src="./images/nextjs-icon-2048x1234-pqycciiu.png" alt="">
+                <img src="./images/mern.png" alt="">
+            </div>
+        </div>
+
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="/images/about.jpeg" alt="">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>Hi I'm Raj Pardhi. a full stack web developer, and passionate about creating fabulous user interface & user experience websites based in Bhopal, India. besides i love to exploring new places,listening music and i'm good dancer as well. </p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Frontend</p>
+                            <p class="tab-links" onclick="opentab('education')">Backend</p>
+
+                            <p class="tab-links" onclick="opentab('experience')">MERN Stack</p>
+                        </div>
+
+                        <div class="tab-contents active-tab" id="skills">
+
+                            <!-- <li><span>MERN</span><br>HTML</li>
+                            <li><span>UI/UX</span><br>Web interfaces</li>
+                            <li><span>Backend</span><br>Web Development</li> -->
+                            <div class="ski">
+                                <div class="fox">
+                                    <img src="/images/html.png" alt="">
+
+                                    <p>HTML</p>
+                                </div>
+                                <div class="fox">
+
+                                    <img src="/images/css.png" alt="">
+                                    <p>CSS</p>
+                                </div>
+                                <div class="fox">
+                                    <img src="/images/js.png" alt="">
+                                    <p>Javascript</p>
+                                </div>
+                                <div class="fox">
+                                    <img src="/images/React-Logo-PNG-Pic.png" alt="">
+                                    <p>React Js</p>
+
+                                </div>
+                                <div id="nextjs">
+
+                                    <div class="fox">
+                                        <img src="/images/nextjs-icon-2048x1234-pqycciiu.png" alt="">
+                                    </div>
+                                    <p>Next Js</p>
+                                </div>
+
+
+                                <div class="fox">
+                                    <img src="/images/gsap.png" alt="">
+                                    <p>GSAP</p>
+
+                                </div>
+
+
+                            </div>
+
+                        </div>
+
+                        <div class="tab-contents" id="education">
+                            <div class="ski">
+                                <div class="fox">
+                                    <img src="/images/node.png" alt="">
+
+                                    <p>Node</p>
+                                </div>
+                                <div class="fox">
+
+                                    <img src="/images/mongodb.png" alt="">
+                                    <p>mongoDB</p>
+                                </div>
+                                <div class="fox">
+                                    <img src="/images/github.png" alt="">
+                                    <p>Github</p>
+                                </div>
+                                <div class="fox">
+                                    <img src="/images/mern.png" alt="">
+                                    <p>MERN Stack</p>
+
+                                </div>
+
+
+
+                            </div>
+
+
+                        </div>
+
+                        <div class="tab-contents" id="experience">
+                            <div class="ron">
+                                <img src="./images/html.png" alt="">
+                                <img src="./images/css.png" alt="">
+                                <img src="./images/js.png" alt="">
+                                <img src="./images/gsap.png" alt="">
+                                <img src="./images/node.png" alt="">
+                                <img src="./images/mongodb.png" alt="">
+                                <img src="./images/React-Logo-PNG-Pic.png" alt="">
+                                <img src="./images/github.png" alt="">
+                                <img src="./images/nextjs-icon-2048x1234-pqycciiu.png" alt="">
+                                <img src="./images/mern.png" alt="">
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div id="college">
+            <div class="container">
+                <div class="elem">
+
+                    <h1>Education</h1>
+                </div>
+                <div class="college-list">
+                    <div class="btn1 btn2">
+
+                        <i class="ri-calendar-line"> 2022 - Present</i>
+
+
+                        <h3>Master of Science</h3>
+                        <h4>Computer Science</h4>
+                        <p>Sam Global University Bhopal</p>
+                    </div>
+                    <div class="btn1 btn2">
+                        <i class="ri-calendar-line"> 2019 - 2022 </i>
+                        <h3>Bachelor of Science</h3>
+                        <h4>Forensic Science</h4>
+                        <p>Government Institute of Forensic Science Nagpur</p>
+                    </div>
+                    <div class="btn1 btn2">
+                        <i class="ri-calendar-line"> 2019</i>
+                        <h3>HSC</h3>
+                        <h4>Science</h4>
+                        <p>Ramkrushna Junior College Kurhadi,Gondia</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="service">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="ri-code-s-slash-line"></i>
+                        <h2>Web Development</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet dolorem possimus, reiciendis
+                            consequatur corrupti maxime.</p>
+                    </div>
+                    <div>
+                        <i class="ri-crop-line"></i>
+                        <h2>UI/UX Design</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet dolorem possimus, reiciendis
+                            consequatur corrupti maxime.</p>
+                    </div>
+                    <div>
+                        <i class="ri-app-store-line"></i>
+                        <h2>Backend Development</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet dolorem possimus, reiciendis
+                            consequatur corrupti maxime.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Works</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="https://images.unsplash.com/photo-1586880244406-556ebe35f282?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt="">
+                        <div class="layer">
+                            <h3>Online Shopping App</h3>
+                            <p>In this website you can shop all types of shoes in the world.Check it from link.</p>
+                            <a href="#"><i class="ri-external-link-line"></i></a>
+                        </div>
+
+                    </div>
+                    <div class="work">
+                        <img src="https://images.unsplash.com/photo-1613329671121-5d1cf551cc3f?q=80&w=1886&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt="">
+                        <div class="layer">
+                            <h3>Music Streaming App</h3>
+                            <p>In this website you can shop all types of shoes in the world.Check it from link.</p>
+                            <a href="https://musicstream2023.onrender.com"><i class="ri-external-link-line"></i></a>
+                        </div>
+
+                    </div>
+                    <div class="work">
+                        <img src="https://images.unsplash.com/photo-1579487785973-74d2ca7abdd5?q=80&w=1888&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt="">
+                        <div class="layer">
+                            <h3>Hotel Booking App</h3>
+                            <p>In this website you can shop all types of shoes in the world.Check it from link.</p>
+                            <a href="#"><i class="ri-external-link-line"></i></a>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div id="contact">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="ri-send-plane-fill"></i> rajpardhi962000@gmail.com</p>
+                    <p><i class="ri-phone-fill"></i> 8806212761</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="ri-facebook-box-fill"></i></a>
+                        <a href="#"><i class="ri-linkedin-box-fill"></i></a>
+                        <a href="#"><i class="ri-instagram-line"></i></a>
+                        <a href="#"><i class="ri-github-fill"></i></a>
+                    </div>
+                    <a href="images/new resum.pdf" download class="btn btn2">Download CV</a>
+
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>Copyright © Raj.Made with 🧡 by Raj</p>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+
+    <script>
+        var typed = new Typed(".auto-type", {
+            strings: ["MERN Stack Developer", "Frontend Developer", "Backend Developer"],
+            typeSpeed: 150,
+            backSpeed: 150,
+            loop: true
+        })
+    </script>
+
+
+
+
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbypT_4ZlaDmnV8Ng5bqjFlKgNiWQhaiLPLVdyxfOeP36AcNhkdM3M8uVTorOfjEwu4/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+
+
+
+
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+        integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+        integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
